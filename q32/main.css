@@ -1,0 +1,21 @@
+#rpc_result_screen {
+    width: 300px;
+    height: 100px;
+    background-color: pink;
+}
+#rpc_result_img {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 1fr 1fr 1fr;
+    height: 400px;
+}
+#rpc_user {
+}
+
+#rpc_blank {
+    width: 200px;
+}
+
+#rpc_com {
+
+}
