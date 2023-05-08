@@ -1,0 +1,17 @@
+#top{
+    background-color: red;
+    width:800px;
+    height: 150px;
+}
+#left{
+    background-color: orange;
+    height: 700px;
+    width: 250px;
+    float: left;
+  }
+  #right{
+    background-color: yellow;
+    height: 700px;
+    width: 550px;
+    float: left;
+  }

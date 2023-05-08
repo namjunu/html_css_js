@@ -1,0 +1,43 @@
+#top {
+    display: flex;
+    height: 200px;
+    width: 800px;
+}
+#top_left {
+    width: 200px;
+    background-color: red;
+}
+#top_right {
+    width: 600px;
+    background-color: orange;
+}
+
+#mid {
+    display: flex;
+    width: 800px;
+    height: 100px;
+    background-color: yellow;
+}
+#mid_left{
+    width: 400px;
+    height: 100px;
+}
+#mid_right{
+    left:100px;
+    width:300px;
+    height:100px;
+}
+
+#bottom {
+    display: flex;
+    height: 300px;
+}
+
+#bottom_left {
+    width: 400px;
+    background-color: green;
+}
+#bottom_right {
+    width: 400px;
+    background-color: blue;
+}

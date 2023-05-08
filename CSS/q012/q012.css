@@ -1,0 +1,39 @@
+/* * { color: pink; background-color: gray; } */
+
+h1 {
+    background: red;
+    display: inline;
+    width: 100px;
+    /* transition-property: width, background-color; */
+    transition-property: width, background-color;
+    transition-duration: 1s;
+}
+
+h1:hover {
+    background-color: blue;
+    width: 400px;
+}
+
+h1:active{
+    color: black;
+    width: 400px;
+}
+
+a::before{
+    content:"+";
+    margin-right: 0.5em;
+    color: blueviolet;
+}
+a::after{
+    content:"종류 : ";
+    margin-right:0.5em;
+    color: blue;
+}
+a::first-line{
+    color: white;
+}
+a::first-letter{
+    content:"고";
+    background-color:aqua;
+}
+

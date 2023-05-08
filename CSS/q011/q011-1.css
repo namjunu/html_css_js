@@ -1,0 +1,34 @@
+a{
+ color: pink; 
+ background-color: gray;
+}
+a[href] {
+     background: blue; 
+    }
+a[target="_blank"]{
+    background:green;
+}
+div>a:link{
+    background: red;
+}
+div>a:visited{
+    background: orange;
+}
+div>a:hover{
+    background:yellow;
+}
+div>p:active{
+    background:green;
+}
+div>input:focus{
+    background: orange;
+}
+div>p:target{
+    background: purple;
+}
+a:enabled{
+    background : black;
+}
+div>p:checked{
+    background: violet;
+}

@@ -1,0 +1,37 @@
+/* 하위 선택자 */
+div p {
+    color: red;
+}
+
+/* 자식 선택자 */
+div>b {
+    color : orange;
+}
+
+/* 인접 형제 선택자 */
+p + c {
+    color : black
+}
+
+/* 속성 선택자-1 */
+a[href] {
+    background: green;
+}
+
+/* 속성 선택자-2 */
+a[href="http://daum.net"] {
+    background-color: blue;
+}
+
+a[target="_blank"] {
+    font-size: 400%;
+    color: pink;
+}
+
+a:link{
+    background: salmon
+}
+
+a:hover{
+    background-color: burlywood;
+}

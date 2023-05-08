@@ -1,0 +1,22 @@
+#box{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    width : 800px;
+    height : 800px;
+    background-color : black;
+    border-color: black;
+}
+
+.ex{
+    width: 100px;
+    height: 100px;
+}
+
+#a{
+    background-color:black;
+    flex-basis:10%;
+}
+#b{
+    background-color:white;
+    flex-basis:10%;
+}

@@ -1,0 +1,44 @@
+div{
+    width:700px;
+    height:700px;
+}
+#top{
+    background-color: rgb(166, 209, 166);
+    width: 700px;
+    height: 100px;
+}
+#mid{
+    background-color: aqua;
+    top: 100px;
+    width: 700px;
+    height: 300px;
+}
+#bot{
+    background-color: rgb(158, 86, 86);
+    top: 100px;
+    width: 700px;
+    height: 100px;
+}
+#top_left{
+    width: 300px;
+    height: 100px;
+    float:left;
+}
+#top_light{
+    left: 100px;
+    width: 300px;
+    height: 100px;
+    float:left;
+}
+#mid_menu1{
+    bottom: 100px;
+    width: 700px;
+    height: 100px;
+    float:top;
+}
+#mid_menu2{
+    bottom:100px;
+    width: 700px;
+    height: 100px;
+    float:top;
+}
